@@ -1,0 +1,28 @@
+body{
+    background-color:#1c1c1a;
+    color:#c9c9c7;
+}
+
+button{
+    border-radius: 15px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius:15px;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius:15px;
+  }
+
+  h1{
+      margin:auto;
+      text-align:center;
+  }
