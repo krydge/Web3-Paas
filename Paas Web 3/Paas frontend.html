@@ -3,7 +3,8 @@
 
 <head>
     <title>Paas Get Your Name</title>
-    <script type="text/javascript" src="send to server.js"></script>
+    <script type="text/javascript" src="C:\Users\kaydons.HQ\Desktop\Paas Web 3\javascript.js"></script>
+    <script type="text/javascript" src="C:\Users\kaydons.HQ\Desktop\Paas Web 3\myFuntion2.js"></script>
 </head>
 
 
@@ -11,12 +12,16 @@
     <h1>Give Us your Name</h1>
     <form action="insert.php" target="_blank">
         First name:<br>
-        <input type="text" name="firstname"><br>
+        <input type="text" name="firstname" id="firstname"><br>
         Last name:<br>
-        <input type="text" name="lastname"><br>
+        <input type="text" name="lastname" id="lastname"><br>
 
-        <input type="submit" name="submit" value="Submit"><br>
+        <input type="submit" name="submit" value="Submit" id="submit"><br>
     </form>
+
+<button onclick="myFunction()"> Disable</button>
+<button onclick="undoFunction()"> Undo</button>
+<p id="demo">A Paragraph</p>
 </body>
 
 </html>
