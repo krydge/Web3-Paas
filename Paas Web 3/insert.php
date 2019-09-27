@@ -20,7 +20,7 @@ $first_name = sqlsrv_real_escape_string($conn, $_REQUEST['firstname']);
 $last_name = sqlsrv_real_escape_string($conn, $_REQUEST['lastname']);
 
 //insert query
-$sql = "insert_into name (name, lastname) VALUES
+$sql = "insert_into Name (name, lastname) VALUES
 ('$first_name', '$last_name')";
 
 if(sqlsrv_query($conn, $sql){
